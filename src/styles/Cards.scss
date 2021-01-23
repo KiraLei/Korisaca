@@ -1,0 +1,47 @@
+
+.cards{
+    width: 100%;
+    max-width: 1300px;
+    display: flex; 
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    max-width: 312px;
+    max-height: 650px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 5px rgb(218, 217, 217);
+
+    figure{
+        padding: 1rem;
+        background-color: rgba($color: #4C571C, $alpha: 0.05);
+    }
+    img{
+        width: 100%;
+        max-width: 312px;
+        border-radius: 10px;
+        opacity: 0.80;
+        object-fit: cover;
+        cursor: pointer;
+
+        :hover{
+            opacity: 1;
+        }
+    }
+    
+}
+
+.information{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+        margin:  45px;
+        p{
+            margin-bottom: 10px;
+        }
+    
+}
